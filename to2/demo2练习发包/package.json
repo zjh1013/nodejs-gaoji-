@@ -1,0 +1,20 @@
+{
+  "name": "zjh-aa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "zjh-cli": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^3.0.2",
+    "inquirer": "^7.0.0",
+    "lianix": "^1.0.0",
+    "wsosdosodsodsodnswod": "^1.0.0"
+  }
+}
