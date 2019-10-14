@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.swiper-container{
+  width: 375px;
+  height: 200px;
+  
+}
+ .swiper-wrapper .swiper-slide img{
+  width: 100%;
+  height: 100%;
+}
+
