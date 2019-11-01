@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root, .root {
+  width: 100%;
+  height: 100%;
+}
+
+.hea {
+  width: 100%;
+  height: 44px;
+  background: #57c1eb;
+}
+
+.hea h4 {
+  color: #fff9f9;
+  width: 100%;
+  text-align: center;
+  line-height: 44px;
+}
+
+.slide-big {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: #90c571;
+}
+
+.slide-big .slide-left {
+  width: 256px;
+  background: chocolate;
+}
+
+.slide-big .slide-right {
+  flex: 1;
+  background: #c145d1;
+}

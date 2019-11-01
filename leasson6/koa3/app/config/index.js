@@ -8,7 +8,7 @@ const connection = mysql.createConnection({
 });
 
 connection.connect();
-module.exports.query = function ($sql,$params) {
+module.exports.query = function ($sql,$params=[]) {
     return new Promise((resolve, reject) => {
         connection.query($sql,$params,(error,results)=>{
             if(error){

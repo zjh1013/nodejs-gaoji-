@@ -1,0 +1,303 @@
+2019-10-16 19:47:01,061 ERROR 13124 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13124
+hostname: Zuo-1013
+
+2019-10-16 19:47:03,070 ERROR 13124 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13124
+hostname: Zuo-1013
+
+2019-10-16 19:47:04,626 ERROR 13124 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13124
+hostname: Zuo-1013
+
+2019-10-16 19:47:04,854 ERROR 13124 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13124
+hostname: Zuo-1013
+
+2019-10-16 20:04:30,352 ERROR 10800 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\co\index.js:65:19)
+    at D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\co\index.js:54:5
+    sql: select * from banner where imgUrl=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from banner where imgUrl=undefined"
+name: "unhandledRejectionError"
+pid: 10800
+hostname: Zuo-1013
+
+2019-10-16 20:04:58,500 ERROR 10800 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\co\index.js:65:19)
+    at D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\co\index.js:54:5
+    sql: select * from banner where imgUrl=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from banner where imgUrl=undefined"
+name: "unhandledRejectionError"
+pid: 10800
+hostname: Zuo-1013
+
+2019-10-16 20:43:30,396 ERROR 3184 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3184
+hostname: Zuo-1013
+
+2019-10-16 20:43:36,860 ERROR 3184 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3184
+hostname: Zuo-1013
+
+2019-10-16 20:43:38,454 ERROR 3184 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3184
+hostname: Zuo-1013
+
+2019-10-17 09:52:44,159 ERROR 15768 nodejs.unhandledRejectionError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\co\index.js:65:19)
+    at D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\co\index.js:54:5
+    sql: select * from banner where imgUrl=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from banner where imgUrl=undefined"
+name: "unhandledRejectionError"
+pid: 15768
+hostname: Zuo-1013
+
+2019-10-17 09:54:42,299 ERROR 252 [-/127.0.0.1/-/14ms GET /home/bannerlist] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\co\index.js:65:19)
+    at D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\co\index.js:54:5
+    sql: select * from banner where imgUrl=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from banner where imgUrl=undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 252
+hostname: Zuo-1013
+
+2019-10-17 09:56:03,905 ERROR 12856 [-/127.0.0.1/-/9ms GET /home/bannerlist] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\co\index.js:65:19)
+    at D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\co\index.js:54:5
+    sql: select * from banner where imgUrl=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from banner where imgUrl=undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 12856
+hostname: Zuo-1013
+
+2019-10-17 09:56:42,026 ERROR 12856 [-/::1/-/559ms GET /home/bannerlist] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Pool.query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\co\index.js:65:19)
+    at D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\co\index.js:54:5
+    sql: select * from banner where imgUrl=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select * from banner where imgUrl=undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 12856
+hostname: Zuo-1013
+
+2019-10-17 09:59:43,265 ERROR 10776 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10776
+hostname: Zuo-1013
+
+2019-10-17 09:59:44,404 ERROR 10776 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10776
+hostname: Zuo-1013
+
+2019-10-17 10:02:06,464 ERROR 6468 [-/::1/-/7ms GET /home/bannerlist] nodejs.TypeError: this.ctx.request.query is not a function
+    at UserController.banner (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\app\controller\home.js:6:51)
+    at Object.callFn (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\koa-compose\index.js:44:32)
+    at next (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\koa-compose\index.js:45:18)
+    at D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\koa-compose\index.js:44:32)
+    at D:\学习\高级node\nodejs-gaoji-\leasson8\sd-egg\node_modules\koa-compose\index.js:36:12
+
+pid: 6468
+hostname: Zuo-1013
+
+2019-10-17 10:02:26,736 ERROR 10776 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10776
+hostname: Zuo-1013
+
